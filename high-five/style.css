@@ -1,0 +1,493 @@
+/*
+Theme Name: High Five
+Theme URI: http://www.justinmdickinson.com/
+Description: This site is suited up in an original theme by Justin Dickinson
+Version: 1.0
+Author: Justin Dickinson
+Author URI: http://www.justinmdickinson.com/
+*/
+
+/*Common*/
+
+*{
+	margin: 0 ;
+	padding: 0 ;
+	border-width: 0 ;
+	text-decoration: none ;
+	list-style-type: none ;
+}
+
+.clearfix:after,
+#wrap:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+
+.p_w2{ width: 49%; }
+.fr{float: right}
+.fl{float: left}
+.clear{clear:both;display:block;overflow:hidden;width:0;height:0}
+.sponsortext,.footnote{
+  line-height: 1.2;
+  font-size:10px;
+  color:#999;
+}
+
+/*Body*/
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif ;
+	font-size: 14px ;
+	background: #ebebeb url(images/site-bg2.gif) repeat top left ;
+	color: #505050 ;
+	line-height: 1.8 ;
+	border-top: 3px solid #333 ;
+}
+
+#wrap {
+	width: 1100px ;
+	margin: 18px auto ;
+}
+
+	#wrap .content #header, #wrap .content #main-nav-alt {
+		margin-bottom: 9px ;
+		background: #fff ;
+		border: 1px solid #ccc ;
+	}
+	
+		#wrap .content #header h1 a{
+			display: block ;
+			width: 500px ;
+			height: 120px ;
+			text-indent: -9000px ;
+			overflow: hidden ;
+			background: transparent url(./images/headers.png) no-repeat 15px 0px ;
+		}
+		
+			body#home #wrap #header h1 a{ background-position: 15px 0px ; }
+			body#archives #wrap #header h1 a{ background-position: 15px -480px ; }
+			body#music #wrap #header h1 a{ background-position: 15px -240px ; }
+			body#quotes #wrap #header h1 a{ background-position: 15px -360px ; }
+
+	#main-nav-alt li{
+		float: left ;
+		margin-left: 6% ;
+	}
+	
+		#main-nav-alt li a{
+			text-transform: lowercase ;
+			font-family: Helvetica, Arial, sans-serif ;
+			font-weight: bold ;
+			font-size: 16px ;
+		}
+
+.content {
+	width: 538px ;
+	float: left ;
+	margin-right: 20px ;
+	padding-bottom: 18px ;
+	text-align: justify ;
+}
+
+
+/*Links*/
+a{
+	color: #d9973b ;
+}
+
+a:hover, #sidebar a:hover{ color: #f7b64c ; }
+
+.postinfo a {
+	color: #d9973b ;
+}
+
+.postinfo a:visited {
+	color:#d9973b ;
+}
+
+.post2 a:visited {
+	color: #d9973b ;
+}
+
+h2, h2 a { color: #000 ; }
+
+.infopost a {
+	font-size: 11px ;
+	color: #666 ;
+	background-color: #fff ;
+	border-bottom: 1px dotted ;
+}
+
+/*Headers*/
+h1,h2,h3 {
+	text-align: left ;
+	font-family: "Century Schoolbook", Georgia, serif ;
+	font-weight: normal ;
+	text-transform: lowercase ;
+	font-size: 24px ;
+	letter-spacing: -1.3px ;
+	line-height: 1 ;
+}
+
+h1{ font-size: 40px ; }
+h2{ font-size: 34px ; }
+h3{ font-size: 24px ; }
+
+.post h2 {
+	padding-bottom: 4px ;
+	margin-bottom: 18px ;
+	border-bottom:1px solid #eee;
+	line-height: 1.1 ;
+}
+
+.post h3{
+	margin-top: 18px ;
+	font-size: 33px;
+}
+
+#sidebar h3, #adbar h3 {
+	border-bottom: 1px solid #e0e0e0 ;
+	background-color: transparent ;
+	color: #777 ;
+}
+
+/*Post*/
+.infopost {
+	padding: 10px 0 0 ;
+	background-color: #fff ;
+	font-size: 11px ;
+	color: #666 ;
+}
+
+blockquote {
+	border-top: 1px dotted #ddd ;
+	border-right: 1px dotted #ddd ;
+	border-bottom: 1px dotted #ddd ;
+	border-left: 5px solid #fb8c02 ;
+	background-color: #fff ;
+	color: #707070 ;
+	text-align: left ;
+	margin: 18px 0 18px 15px ;
+	padding: 0 15px 9px ;
+}
+
+blockquote cite {
+	display:block;
+	margin: 18px 0 18px 15px ;
+}
+
+p strong{ color: #333 ; }
+
+p.subscribe{ font-size: 12px ; }
+
+.postinfo {
+	clear: both ;
+	margin: 18px 0 ;
+	padding: 3px 6px ;
+	font-size: 10px ;
+	background: #f6f9f9 ;
+	color: #505050 ;
+	border: 1px solid #e5e5e5 ;
+}
+
+.post {
+	padding: 18px ;
+	margin-bottom: 18px ;
+	background: #fff ;
+	border: 1px solid #ccc ;
+}
+
+.post ul {
+	list-style: url('./images/li.gif') ;
+}
+
+.post p, .post ul, .post ol{
+	margin-top: 18px ;
+}
+
+.post ul, .post ol{
+	margin-left: 20px ;
+}
+
+.post ol li{
+	list-style: none ;
+}
+
+.post li {
+	margin: 0 0 8px ;
+}
+
+.post s{ text-decoration: line-through ; }
+
+.post abbr{ border-bottom: 1px dotted #505050 ; cursor: help ; }
+
+.post table td{ padding: 3px ; }
+.post table th{ text-align: center ; }
+
+.nav {
+	background: #fff;
+	font-size: 14px ;
+	font-weight: 700 ;
+	padding: 20px ;
+}
+
+.justify {
+	text-align: justify ;
+}
+
+.right {
+	float: right ;
+	margin: 0 2px 0 13px ;
+}
+
+.left {
+	float: left ;
+	margin: 0 13px 0 2px ;
+}
+
+.border{
+	border: 1px solid #eee ;
+	padding: 5px ;
+}
+
+.inline{ display: inline ; }
+
+
+
+
+/*Search*/
+.inse, body#archives #sidebar .inse{
+	width: 110px ;
+	margin: 9px 0 ;
+	padding: 4px 20px 4px 4px ;
+	background: #fff url(./images/search_bg.png) no-repeat 112px 4px ;
+	border: 1px solid #ccc ;
+	color: #888 ;
+}
+
+body#archives .inse{
+	width: 400px ;
+	font-size: 16px ;
+	background-position: 400px 2px ;
+}
+
+
+
+
+
+/*Sidebar*/
+#sidebar{
+	float: left ;
+	width: 170px ;
+	margin: 0 20px 0 0 ;
+}
+
+#adbar{
+	float: left ;
+	width: 350px ;
+}
+
+	#sidebar img.hero{
+		margin-bottom: 20px ;
+		background: #fff;
+		border: 1px solid #ccc ;
+	}
+	
+	#sidebar #main-nav, #sidebar #search-site, #sidebar #subscribe-module, #sidebar #outside-links, #sidebar .ad160x600,
+	#adbar #post-categories, #adbar .ad300x250, #adbar #amazon-affiliate,
+	#sidebar .generic-sidebar-widget, #adbar .generic-sidebar-widget{
+		padding: 10px ;
+		margin-bottom: 18px ;
+		background: #fff ;
+		border: 1px solid #ccc ;
+	}
+	
+	#sidebar #search-site ul{ margin-top: 10px ; }
+	
+	#sidebar #subscribe-module, #sidebar #outside-links{ font-size: 12px ; }
+	
+	#adbar #post-categories li, #adbar #amazon-affiliate li{
+		float: left ;
+		width: 50% ;
+	}
+	
+	#adbar #amazon-affiliate li{
+		font-size: 12px ;
+		line-height: 1.2 ;
+	}
+	
+		#adbar #amazon-affiliate li a{ color: #00f ; }
+	
+	#adbar .ad300x250 div{
+		width:300px ;
+		margin: 0 auto ;
+	}
+	
+	#sidebar .ad160x600{
+		padding: 5px ;
+	}
+	
+	#meta-info p{
+		float: left ;
+		width: 150px ;
+		margin-right: 16px ;
+		font-size: 12px ;
+		line-height: 1.2 ;
+	}
+	
+	#meta-info ul{
+		width: 100px ;
+		float: left ;
+	}
+
+#sidebar a {
+	color: #888 ;
+}
+
+#searchsubmit{
+	display: none ;
+}
+
+#post-categories h3{ margin-bottom: 8px ; }
+
+ul.archvs li a, ul.archvs li a:hover{
+	background: transparent url('./images/folder.gif') no-repeat top left ;
+	padding-left: 22px ;
+	font-size: 12px ;
+	color: #888;
+}
+
+#sidebar ul.sdcats li {
+	padding-left: 22px ;
+	background: url("./images/favs.gif") no-repeat scroll transparent 0 4px ;
+	color: #888l
+}
+
+ul.subscribe li.rss-subscribe a img{
+	padding: 10px 10px 10px 0 ;
+}
+
+ul.subscribe input.email{
+	width: 140px ;
+	margin: 5px 0 3px ;
+	padding: 4px;
+	border: 1px solid #ccc ;
+	background-color: #fff ;
+	color: #888 ;
+}
+
+ul.subscribe input.submit{
+	margin: 10px 0 ;
+	width: 80px ;
+}
+
+	ul.subscribe li.chicklits a{
+		display: block ;
+		padding-bottom: 5px ;
+	}
+	
+	ul.subscribe li.chicklits a.first{
+		padding-top: 5px ;
+	}
+
+li.archives a, li.music a, li.quotes a, li.episodes a,
+li.archives a:hover, li.music a:hover, li.quotes a:hover, li.episodes a:hover {
+	background: transparent url('./images/nav_icons.png') no-repeat 3px 0px ;
+	padding: 0 0 3px 22px ;
+}
+
+li.music a, li.music a:hover{ background-position: 3px -23px ; }
+li.quotes a, li.quotes a:hover{ background-position: 3px -46px ; }
+li.archives a, li.archives a:hover{ background-position: 3px -70px ; }
+
+li.photos a,li.photos a:hover{
+	background: transparent url('./images/pictures.png') no-repeat top left ;
+	padding: 0 0 2px 22px ;
+}
+
+li.firstime a, li.firstime a:hover{
+	background: transparent url('./images/favs.gif') no-repeat top left ;
+	padding-left: 22px ;
+}
+
+
+#sidebar li {
+	border-bottom: 1px solid #eee ;
+	padding: 1px ;
+}
+
+.watchepisode p{
+	margin: 5px 0 ;
+	font-size: 12px ;
+}
+
+.watchepisode .epname{
+	display:block;
+	font-size:14px;
+	font-style: italic;
+	line-height:16px;
+	margin: 5px 0 10px ;
+}
+
+.donate input{ border-width: 0 ; }
+
+/*Footer*/
+#footer{
+	clear: both ;
+	width: 100% ;
+	margin: 18px 11px 18px 0 ;
+	padding: 5px ;
+	border: 1px dotted #e5e5e5 ;
+	background-color: #fff ;
+	text-align: justify ;
+	text-transform: uppercase ;
+	line-height: 1.1 ;
+	font-size: 11px ;
+	font-family: Arial, Helvetica, sans-serif ;
+	color: #999 ;
+}
+
+	#footer a.icon{
+		display: block ;
+		float: left ;
+		margin-right: 5px ;
+		width: 20px ;
+		height: 19px ;
+		text-indent: -9000px ;
+		overflow: hidden ;
+		background: #fff url(./images/gorilla.png) no-repeat top left ;
+		color: #999 ;
+	}
+	
+	#footer a:hover.icon{ background-position: 0 -19px ; }
+	
+	#footer p{ padding-top: 3px ; }
+	
+	
+/* Misc */
+
+img#wpstats{ display: none ; }
+
+.post p.download { margin: 0 0 18px; }
+.download strong { font-size: 0.7em; }
+.download a { display: inline-block; }
+.download a img { vertical-align: middle; }
+.download a.amazon_btn {
+  padding: 2px 5px;
+  background-color: #e9a74b;
+  background-image: -moz-linear-gradient(#f9b75b, #e9870b);
+  border: 1px solid #d9973b;
+  border-radius: 3px ;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  font-size: 0.6em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.download a:hover.amazon_btn { background-color: #e9870b; background-image: none; }

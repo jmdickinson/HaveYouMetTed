@@ -1,0 +1,83 @@
+#commentsblock {
+border-top:1px dotted #ddd;
+margin:15px 0 0;
+padding:15px 0 0;
+}
+
+#commentsblock p{
+padding:5px 0 0;
+margin:18px 0 0;
+}
+
+#commentsblock ol {
+list-style:none;
+margin:0;
+padding:0 0 20px;
+}
+
+#commentsblock ol li {
+line-height:24px;
+margin:15px 0 0;
+padding:5px 10px 10px;
+background-color: #fff;
+color:#505050;
+border-top: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+text-align: left ;
+}
+
+#commentsblock ol li.alt {
+background-color: #fcfcfc;
+color: #4e4e4e ;
+border-top: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+}
+
+#commentsblock ol li.author{
+background:#fdfbf8;
+color: #505050 ;
+border-top: 2px solid #fb8c02 ;
+border-bottom: 2px solid #fb8c02 ;
+}
+
+#commentsblock ol li.user{
+background:#fff;
+color: #505050 ;
+border-top: 2px solid #9fb5d0 ;
+border-bottom: 2px solid #9fb5d0 ;
+}
+
+h2.commentstitle{
+border-bottom:1px dotted;
+border-bottom-color:#ccc;
+font:bold 17px Arial, sans-serif;
+}
+
+.commentmetadata {
+font-size:12px;
+}
+
+#commentsblock p.nocomments {
+padding:0;
+}
+
+#formcomments fieldset {
+border:1px solid #ddd;
+}
+
+#formcomments p{
+font-size:14px;
+padding:5px 0 0;
+margin:0;
+}
+
+textarea#comment{
+width:450px;
+border: 1px dotted #ccc ;
+font-family: Verdana, Arial, Helvetica, Georgia, Sans-Serif ;
+font-size: 10px ;
+}
+
+input{
+	border: 1px dotted #ccc ;	
+}

@@ -1,0 +1,113 @@
+#commentsblock {
+border-top:1px dotted #ddd;
+margin:15px 0 0;
+padding:15px 0 0;
+}
+
+#commentsblock p{
+padding:5px 0 0;
+margin:0 0 18px;
+}
+
+#commentsblock ol {
+list-style:none;
+margin:0;
+padding:0 0 20px;
+}
+
+#commentsblock ol li {
+line-height:24px;
+padding:5px 10px 10px;
+margin: 0;
+background-color: #fff;
+overflow: hidden;
+color:#505050;
+border-top: 1px solid #ddd;
+text-align: left ;
+}
+
+#commentsblock ol li img.avatar {
+	float:left;
+	margin: 10px 15px 0 0;
+}
+
+#commentsblock ol li .commenttext {
+	width: 400px;
+	float:left;
+}
+
+#commentsblock ol li.alt {
+background-color: #fcfcfc;
+color: #4e4e4e ;
+border-top: 1px solid #ddd;
+}
+
+#commentsblock ol li.author{
+background:#fdfbf8;
+color: #505050 ;
+border-top: 2px solid #fb8c02 ;
+border-bottom: 2px solid #fb8c02 ;
+}
+
+#commentsblock ol li.user{
+background:#fff;
+color: #505050 ;
+border-top: 2px solid #9fb5d0 ;
+border-bottom: 2px solid #9fb5d0 ;
+}
+
+h2.commentstitle{
+	border-width: 0;
+	font:24px "Century Schoolbook",Georgia,serif;
+	color: #505050;
+}
+
+h2.formtitle {
+	padding-top: 40px;
+	margin-top: -10px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px dotted #ddd;
+}
+
+.commentmetadata {
+font-size:12px;
+}
+
+#commentsblock p.nocomments {
+padding:0;
+}
+
+#formcomments fieldset {
+border:1px solid #ddd;
+}
+
+#formcomments p{
+font-size:14px;
+padding:5px 0 0;
+margin:0;
+}
+
+textarea#comment{
+	width:450px;
+	padding: 5px;
+	border: 1px dotted #ccc ;
+	font-family: sans-serif ;
+	font-size: 14px ;
+	color:#505050;
+}
+
+input{
+	border: 1px dotted #ccc ;	
+}
+
+input:focus, textarea#comment:focus {
+	background: #f6f9f9;
+	border-color: #666;
+}
+
+input#submit {
+	background:none repeat scroll 0 0 #E3E6E6;
+	font-family:sans-serif;
+	font-size:16px;
+	padding:5px 3px;
+}
